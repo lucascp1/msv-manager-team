@@ -16,7 +16,7 @@ import javax.persistence.*;
 public class Jogador {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_jogador")
     private Integer idJogador;
 
@@ -28,8 +28,4 @@ public class Jogador {
 
     @Column(name = "posicao")
     private String posicao;
-
-    @OneToOne
-    @JoinColumn(name = "id_passageiro")
-    private Contrato contrato;
 }

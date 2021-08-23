@@ -1,3 +1,5 @@
+package br.com.lucascp1.msvmanagerteam.DTOs;
+
 //package br.com.lucascp1.msvmanagerteam.DTOs;
 //
 //import br.com.lucascp1.msvmanagerteam.models.Jogador;

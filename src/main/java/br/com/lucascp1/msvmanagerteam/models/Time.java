@@ -1,3 +1,5 @@
+package br.com.lucascp1.msvmanagerteam.models;
+
 //package br.com.lucascp1.msvmanagerteam.models;
 //
 //import lombok.AllArgsConstructor;
@@ -14,7 +16,7 @@
 //@Entity
 //@Table(name = "time")
 public class Time {
-//
+
 //    @Id
 //    @GeneratedValue
 //    @Column(name = "id_time")
