@@ -24,12 +24,22 @@ public class JogadorController {
 
     @GetMapping("/{jogador}")
     public Optional<Jogador> buscarJogadoresPorId(@PathVariable Integer jogador){
-        return jogadorService.buscarJogadoresPorId(jogador);
+        return jogadorService.buscarJogadorPorId(jogador);
     }
 
     @PostMapping
     public ResponseEntity<Jogador> salvarJogador(@RequestBody Jogador jogador){
         return ResponseEntity.ok(this.jogadorService.salvarJogador(jogador));
+    }
+
+    @DeleteMapping("/{jogador}")
+    public ResponseEntity<String> excluirJogadorPorId(@PathVariable Integer jogador) {
+        return ResponseEntity.ok(this.jogadorService.excluirJogadorPorId(jogador));
+    }
+
+    @PutMapping("/{idJogador}")
+    public Jogador atualizarJogadorPorId(@PathVariable Integer idJogador, @RequestBody Jogador jogador){
+        return jogadorService.atualizarJogadorPorId(idJogador, jogador);
     }
 }
 
