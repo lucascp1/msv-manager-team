@@ -5,20 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3964ad10-5b7b-4428-a4c7-9330a41cfdc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controller/ContratoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/mapper/ContratoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/mapper/JogadorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/model/Contrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/model/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repository/TimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/service/ContratoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/service/TimeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/services/JogadorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/services/JogadorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/DTOs/ContratoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/DTOs/JogadorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/DTOs/TimeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controllers/ContratoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/models/Contrato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/models/Jogador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/models/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/repositories/ContratoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/repositories/JogadorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/services/ContratoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/services/JogadorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/services/TimeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repositories/JogadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repositories/JogadorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/services/JogadorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/services/JogadorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTOs/ContratoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTO/ContratoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTOs/JogadorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTO/JogadorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTOs/TimeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTO/TimeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controllers/ContratoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controllers/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controller/JogadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/models/Contrato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/models/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/model/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/models/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repositories/ContratoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repository/ContratoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repositories/JogadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/repository/JogadorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/services/ContratoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/services/JogadorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/service/JogadorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/services/TimeService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +99,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -125,5 +155,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
