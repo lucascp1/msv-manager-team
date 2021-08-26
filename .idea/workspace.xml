@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3964ad10-5b7b-4428-a4c7-9330a41cfdc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/DTO/FreeAgentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/service/ContratoEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/MsvManagerTeamApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/MsvManagerTeamApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controller/ContratoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controller/ContratoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controller/JogadorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/controller/JogadorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/service/ContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagerteam/service/ContratoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/MsvManagerTeamApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/MsvManagerTeamApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controller/ContratoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagerteam/controller/ContratoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,7 +90,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msv-manager-sales" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msv-ticket" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.lucascp1.msvmanagerteam.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.lucascp1.msvmanagerteam.DTO" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MsvManagerTeamApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -83,7 +106,7 @@
       <module name="msv-manager-team.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.lucascp1.msvmanagerteam.*" />
+          <option name="PATTERN" value="br.com.lucascp1.msvmanagerteam.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

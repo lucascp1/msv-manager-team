@@ -1,12 +1,13 @@
 package br.com.lucascp1.msvmanagerteam.controller;
 
+import br.com.lucascp1.msvmanagerteam.service.ContratoEndpoint;
 import br.com.lucascp1.msvmanagerteam.DTO.ContratoDTO;
+import br.com.lucascp1.msvmanagerteam.DTO.FreeAgentDTO;
 import br.com.lucascp1.msvmanagerteam.model.Contrato;
 import br.com.lucascp1.msvmanagerteam.service.ContratoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 
 import java.util.List;
 
@@ -16,6 +17,14 @@ public class ContratoController {
 
     @Autowired
     private ContratoService contratoService;
+
+    @Autowired
+    private ContratoEndpoint contratoEndpoint;
+
+    @GetMapping("/freeAgent")
+    public List<FreeAgentDTO> getContrato(){
+        return contratoEndpoint.getContrato();
+    }
 
     @GetMapping
     public ResponseEntity<List<ContratoDTO>> listarContratos(){
