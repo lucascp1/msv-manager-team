@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/jogador")
@@ -23,7 +22,7 @@ public class JogadorController {
     }
 
     @GetMapping("/{idJogador}")
-    public JogadorDTO buscarJogadoresPorId(@PathVariable Integer idJogador){
+    public JogadorDTO buscarJogadorPorId(@PathVariable Integer idJogador){
         return jogadorService.buscarJogadorPorId(idJogador);
     }
 

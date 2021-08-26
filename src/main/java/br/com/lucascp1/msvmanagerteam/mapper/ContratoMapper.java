@@ -16,7 +16,8 @@ public class ContratoMapper {
                 dto.getValor(),
                 dto.getRecisao(),
                 dto.getDuracao(),
-                dto.getDataContratacao());
+                dto.getDataContratacao(),
+                dto.getJogador());
     }
 
     public ContratoDTO converterEntidadeParaDto(Contrato contrato){
@@ -25,7 +26,8 @@ public class ContratoMapper {
                 contrato.getValor(),
                 contrato.getRecisao(),
                 contrato.getDuracao(),
-                contrato.getDataContratacao());
+                contrato.getDataContratacao(),
+                contrato.getJogador());
     }
 
     public List<Contrato> converterListaDtoParaEntidade(List<ContratoDTO> listDto){
@@ -39,7 +41,7 @@ public class ContratoMapper {
             contrato.setRecisao(dto.getRecisao());
             contrato.setDuracao(dto.getDuracao());
             contrato.setDataContratacao(dto.getDataContratacao());
-//            contrato.setNomeJogador(contrato.getJogador().getNomeJogador());
+            contrato.setJogador(dto.getJogador());
             listContrato.add(contrato);
         }
         return listContrato;
@@ -57,7 +59,7 @@ public class ContratoMapper {
             contratoDTO.setRecisao(contrato.getRecisao());
             contratoDTO.setDuracao(contrato.getDuracao());
             contratoDTO.setDataContratacao(contrato.getDataContratacao());
-//            contratoDTO.setNomeJogador(contrato.getJogador().getNomeJogador());
+            contratoDTO.setJogador(contrato.getJogador());
             listDto.add(contratoDTO);
         }
         return listDto;
@@ -68,7 +70,7 @@ public class ContratoMapper {
         contrato.setRecisao(contratoDTO.getRecisao());
         contrato.setDuracao(contratoDTO.getDuracao());
         contrato.setDataContratacao(contratoDTO.getDataContratacao());
-//        contrato.setNomeJogador(contratoDTO.getNomeJogador());
+        contrato.setJogador(contratoDTO.getJogador());
 
         return contrato;
     }

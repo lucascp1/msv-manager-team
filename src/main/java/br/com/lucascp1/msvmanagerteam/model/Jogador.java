@@ -28,4 +28,8 @@ public class Jogador {
 
     @Column(name = "posicao")
     private String posicao;
+
+    @ManyToOne
+    @JoinColumn(name = "id_time")
+    private Time time;
 }

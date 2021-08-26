@@ -11,11 +11,19 @@ import java.util.List;
 public class JogadorMapper {
 
     public Jogador converterDtoParaEntidade(JogadorDTO dto){
-        return new Jogador(dto.getIdJogador(), dto.getNomeJogador(), dto.getAltura(), dto.getPosicao());
+        return new Jogador(dto.getIdJogador(),
+                dto.getNomeJogador(),
+                dto.getAltura(),
+                dto.getPosicao(),
+                dto.getTime());
     }
 
     public JogadorDTO converterEntidadeParaDto(Jogador jogador){
-        return new JogadorDTO(jogador.getIdJogador(), jogador.getNomeJogador(), jogador.getAltura(), jogador.getPosicao());
+        return new JogadorDTO(jogador.getIdJogador(),
+                jogador.getNomeJogador(),
+                jogador.getAltura(),
+                jogador.getPosicao(),
+                jogador.getTime());
     }
 
     public List<Jogador> converterListaDtoParaEntidade(List<JogadorDTO> listDto){
@@ -29,6 +37,7 @@ public class JogadorMapper {
             jogador.setNomeJogador(dto.getNomeJogador());
             jogador.setAltura(dto.getAltura());
             jogador.setPosicao(dto.getPosicao());
+            jogador.setTime(dto.getTime());
             listJogador.add(jogador);
         }
 
@@ -46,6 +55,7 @@ public class JogadorMapper {
             jogadorDTO.setNomeJogador(jogador.getNomeJogador());
             jogadorDTO.setAltura(jogador.getAltura());
             jogadorDTO.setPosicao(jogador.getPosicao());
+            jogadorDTO.setTime(jogador.getTime());
             listDto.add(jogadorDTO);
         }
         return listDto;
@@ -55,7 +65,7 @@ public class JogadorMapper {
         jogador.setNomeJogador(jogadorDTO.getNomeJogador());
         jogador.setPosicao(jogadorDTO.getPosicao());
         jogador.setAltura(jogadorDTO.getAltura());
-
+        jogador.setTime(jogador.getTime());
         return jogador;
     }
 }

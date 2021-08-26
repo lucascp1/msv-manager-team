@@ -1,5 +1,6 @@
 package br.com.lucascp1.msvmanagerteam.DTO;
 
+import br.com.lucascp1.msvmanagerteam.model.Jogador;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,5 +17,5 @@ public class ContratoDTO {
     private Double recisao;
     private String duracao;
     private LocalDate dataContratacao;
-//    private String nomeJogador;
+    private Jogador jogador;
 }

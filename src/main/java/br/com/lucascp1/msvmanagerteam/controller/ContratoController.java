@@ -23,7 +23,7 @@ public class ContratoController {
     }
 
     @GetMapping("/{idContrato}")
-    public ContratoDTO buscarJogadoresPorId(@PathVariable Integer idContrato){
+    public ContratoDTO buscarContratoPorId(@PathVariable Integer idContrato){
         return contratoService.buscarContratoPorId(idContrato);
     }
 

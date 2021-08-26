@@ -28,8 +28,4 @@ public class Time {
 
     @Column(name = "tecnico")
     private String tecnico;
-
-    @ManyToOne
-    @JoinColumn(name = "id_jogador")
-    private Jogador jogador;
 }

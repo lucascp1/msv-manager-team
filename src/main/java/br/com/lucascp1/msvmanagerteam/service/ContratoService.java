@@ -3,13 +3,11 @@ package br.com.lucascp1.msvmanagerteam.service;
 import br.com.lucascp1.msvmanagerteam.DTO.ContratoDTO;
 import br.com.lucascp1.msvmanagerteam.mapper.ContratoMapper;
 import br.com.lucascp1.msvmanagerteam.model.Contrato;
-import br.com.lucascp1.msvmanagerteam.model.Jogador;
 import br.com.lucascp1.msvmanagerteam.repository.ContratoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ContratoService {

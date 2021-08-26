@@ -33,8 +33,8 @@ public class Contrato {
     @Column(name = "data_contratacao")
     private LocalDate dataContratacao;
 
-//    @OneToOne
-//    @JoinColumn(name = "id_jogador")
-//    private Jogador jogador;
+    @OneToOne
+    @JoinColumn(name = "id_jogador")
+    private Jogador jogador;
 
 }
